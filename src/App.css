@@ -1,0 +1,127 @@
+.Container {
+    max-width: 1404px;
+    margin: 0 auto;
+  }
+.Section-one {
+  background: #BCD46B;
+  height: 650px;
+  padding-top: 81px;
+    
+}
+.Section-one-title {
+  color: #fff;
+  font-size: 67px;
+  font-family: TT Firs Neue-600;
+}
+.Section-one-subtitle {
+  max-width: 780px;
+  font-size: 20px;
+  margin-top: 2rem;
+  font-family: TT Firs Neue-500;
+  z-Index: 999;
+}
+
+.Section-two {
+  height: 437px;
+  background: radial-gradient(circle 30rem at 6% bottom, rgba(171, 211, 63, 0.61), #fff);
+  scroll-margin-top: 8rem;
+}
+.Section-two-title {
+  width: 418px;
+  height: 28px;
+  margin: 3rem auto 0 auto;
+  background-color: rgba(207, 236, 42, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section-three {
+  height: 451px;
+  background: radial-gradient(circle 14rem at 80% 50%, rgba(42, 40, 40, 0.444), rgba(0, 0, 0, 1));
+}
+#teachers {
+  scroll-margin-top: 8rem;
+}
+
+.Section-Anastasia {
+  background: radial-gradient(circle 25rem at right 50%, rgba(171, 211, 63, 0.61), rgba(213, 213, 213, 1));
+  height: max-content;
+  padding-top: 102px;
+}
+.Block-Anastasia {
+  width: 1083px;
+  height: 461px;
+  border-radius: 40px;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  margin: 0 auto;
+  position: relative;
+}
+.Section-Janna {
+  background: rgba(213, 213, 213, 1);
+  padding-top: 89px;
+  z-index: 100;
+}
+.Block-Janna {
+  width: calc(100% - 200px);
+  height: 457px;
+  border-radius: 0 40px 40px 0;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, rgb(216, 216, 216) 0%, rgba(255, 255, 255, 0.76) 100%);
+  position: relative;
+  z-index: 200;
+}
+.Section-Ekaterina {
+  background: radial-gradient(circle 25rem at left 50%, rgba(171, 211, 63, 0.61), rgba(213, 213, 213, 1));
+  height: 400px;
+  padding-top: 93px;
+}
+.Block-Ekaterina {
+  float: right;
+  width: calc(100% - 250px);
+  height: 408px;
+  border-radius: 40px 0 0 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+}
+.Section-Nikita {
+  background: rgba(213, 213, 213, 1);
+  height: max-content;
+  padding: 93px 0 69px 0;
+}
+.Block-Nikita {
+  width: calc(100% - 250px);
+  height: 407px;
+  border-radius: 0 40px 40px 0;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  z-index: 100;
+  position: relative;
+}
+#price {
+  scroll-margin-top: 12rem;
+}
+.Section-price {
+  height: 626px;
+}
+.priceButton {
+  width: 181px;
+  height: 56px;
+  border-radius: 50px;
+  font-family: TT Firs Neue-500;
+  font-size: 25px;
+  border: 2px solid #000;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  margin-Bottom: 29px;
+  transition: all 0.25s ease;
+}
+.priceButton:hover {
+  transform: scale(1.1);
+}
+#questions {
+  scroll-margin-top: 7rem;
+}

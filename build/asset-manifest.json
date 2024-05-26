@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c27bea8.css",
+    "main.js": "/static/js/main.19a71a68.js",
+    "static/js/453.ada4d3a7.chunk.js": "/static/js/453.ada4d3a7.chunk.js",
+    "static/media/Janna.png": "/static/media/Janna.841f24319e2631edf4fa.png",
+    "static/media/Ekaterina.png": "/static/media/Ekaterina.a44b76bab7ad9d7d7618.png",
+    "static/media/Nikita.png": "/static/media/Nikita.f28d011e70a4163799b2.png",
+    "static/media/TTFirsNeue-Light.otf": "/static/media/TTFirsNeue-Light.8e94d8db3d23be3ce623.otf",
+    "static/media/Anastasia.png": "/static/media/Anastasia.eec2717fe8c546071e9c.png",
+    "static/media/TTFirsNeue-Bold.otf": "/static/media/TTFirsNeue-Bold.abf24766735f2793f09a.otf",
+    "static/media/TTFirsNeue-DemiBold.otf": "/static/media/TTFirsNeue-DemiBold.35ac2e86f50e713bab86.otf",
+    "static/media/TTFirsNeue-Medium.otf": "/static/media/TTFirsNeue-Medium.a4015197430a82ce1898.otf",
+    "static/media/line.png": "/static/media/line.83ca17a8aad4bb8b7bc9.png",
+    "static/media/line2.png": "/static/media/line2.9d5861debf03c6e5714f.png",
+    "static/media/girl.png": "/static/media/girl.c39b0483513a21394bcc.png",
+    "static/media/line4.png": "/static/media/line4.7ee765166038111f0897.png",
+    "static/media/notepad.png": "/static/media/notepad.9d89145960198f38cc5c.png",
+    "static/media/line3.png": "/static/media/line3.e16659632187272008f3.png",
+    "static/media/pin.png": "/static/media/pin.d582562651c297a44d5f.png",
+    "static/media/cat.png": "/static/media/cat.ab7c1bd233b45b998bee.png",
+    "index.html": "/index.html",
+    "main.6c27bea8.css.map": "/static/css/main.6c27bea8.css.map",
+    "main.19a71a68.js.map": "/static/js/main.19a71a68.js.map",
+    "453.ada4d3a7.chunk.js.map": "/static/js/453.ada4d3a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c27bea8.css",
+    "static/js/main.19a71a68.js"
+  ]
+}

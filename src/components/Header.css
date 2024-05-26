@@ -1,0 +1,40 @@
+/* Решили отдельно для компонента лист CSS сделать */
+
+header {
+    height: 81px;
+    width: 100vw;
+    background-color: #fff;
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.Header-container {
+    width: calc(1440px - 242px);
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.Header-logo {
+    display: block;
+    padding-top: 28px;
+    float: left;
+}
+.Header-button {
+    background-color: #000;
+    color: #fff;
+    font-family: TT Firs Neue-500;
+    width: 274px;
+    height: 41px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 23px;
+    font-size: 20px;
+
+    transition: all 0.25s ease;
+}
+.Header-button:hover {
+    transform: scale(1.05);
+}

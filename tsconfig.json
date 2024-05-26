@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
+
+
+/*
+Этот код представляет собой конфигурацию компилятора TypeScript для проекта, использующего React. Он определяет различные настройки, которые будут использоваться при компиляции TypeScript-кода в проекте.
+
+Давайте разберем, что делает каждая из этих настроек:
+
+1. "target": "es5": Указывает, что генерируемый код должен быть совместим с ECMAScript 5 (ES5).
+2. "lib": ["dom", "dom.iterable", "esnext"]: Определяет список библиотек, которые должны быть доступны во время компиляции. В данном случае это DOM API, DOM Iterable API и последняя версия ECMAScript.
+3. "allowJs": true: Разрешает включать JavaScript-файлы в проект наряду с TypeScript-файлами.
+4. "skipLibCheck": true: Пропускает проверку типов для всех библиотек, что может ускорить процесс компиляции.
+5. "esModuleInterop": true: Включает взаимодействие с модулями ECMAScript.
+6. "allowSyntheticDefaultImports": true: Разрешает использование синтетического импорта по умолчанию, даже если модуль не экспортирует его.
+7. "strict": true: Включает строгий режим типизации, что повышает качество кода.
+8. "forceConsistentCasingInFileNames": true: Заставляет соблюдать последовательность регистра в именах файлов.
+9. "noFallthroughCasesInSwitch": true: Требует, чтобы в операторах switch не было пропускаемых case-блоков.
+10. "module": "esnext": Указывает, что модули должны использовать последнюю версию ECMAScript.
+11. "moduleResolution": "node": Использует режим разрешения модулей Node.js.
+12. "resolveJsonModule": true: Разрешает импорт JSON-файлов.
+13. "isolatedModules": true: Включает режим "изолированных модулей", что означает, что каждый файл должен быть самодостаточным.
+14. "noEmit": true: Отключает генерацию выходных файлов, так как это, вероятно, React-проект, где компиляция происходит на этапе сборки.
+15. "jsx": "react-jsx": Указывает, что JSX-синтаксис должен быть преобразован в вызовы React.createElement.
+
+В целом, этот конфигурационный файл настраивает TypeScript-компилятор для использования с React-приложением, обеспечивая строгую типизацию, современные функции языка и совместимость с различными библиотеками и средами выполнения.
+*/
